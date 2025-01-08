@@ -98,6 +98,8 @@ ol {
   width: fit-content;
   justify-content: center;
   align-items: center;
+  max-width: 225px;
+  max-height: 27px;
   gap: 5px;
 }
 
@@ -200,6 +202,9 @@ ol {
 
 
 .search-form__submit-button {
+  max-width: 194px;
+  max-height: 34px;
+  gap: 36px;
   flex-grow: 1;
   padding: 6px 73.5px;
 }
@@ -210,8 +215,8 @@ ol {
   flex-direction: column;
   grid-area: content__details;
   gap: 26px;
-  min-width: 399px;
-  height: 100%;
+  max-width: 399px;
+  max-height: 534px;
 }
 
 
@@ -219,6 +224,8 @@ ol {
   color: #fff;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
+  max-width: 260px;
+  max-height: 210px;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
