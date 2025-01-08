@@ -124,8 +124,8 @@ ol {
 .search-form__textfield {
 
   border: none;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   background-color: transparent;
@@ -170,7 +170,7 @@ ol {
 
 /* button */
 .button {
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   background-color: transparent;
@@ -234,7 +234,7 @@ ol {
   position: relative;
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
+  overflow-y: auto;
   cursor: none;
   gap: 30px;
   max-height: 298px;
@@ -317,7 +317,8 @@ ol {
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
-  max-width: 195px;
+  max-width: 196px;
+  max-height: 103px;
   font-weight: 700;
   font-size: 30px;
   line-height: 32.2px;
